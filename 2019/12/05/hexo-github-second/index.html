@@ -99,7 +99,7 @@
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;05&#x2F;hexo-github-second&#x2F;auto.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;05&#x2F;hexo-github-second&#x2F;import.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;05&#x2F;hexo-github-second&#x2F;git.png">
-<meta property="og:updated_time" content="2019-12-05T08:40:04.307Z">
+<meta property="og:updated_time" content="2019-12-05T08:44:32.119Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;05&#x2F;hexo-github-second&#x2F;next-theme.png">
 
@@ -402,7 +402,7 @@
 <li>next默认有四种模式，每种模式都有不同的风格，我们可以选择不同的风格，在next文件夹的_cofig.yml中搜索Schemes，如下图所示<img src="/2019/12/05/hexo-github-second/scheme.png" alt="风格">，这里我么选择最后一个，是一种双栏的风格。</li>
 <li>然后配置next的菜单。<br>搜索menu关键字，然后做如下修改<img src="/2019/12/05/hexo-github-second/menu.png" alt="菜单">。<br>，然后在根目录执行如下代码<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">hexo new page tags      #生成标签页</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">hexo new page categories  #生成分类页面</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line">hexo new page archives      #生成归档页</span></pre></td></tr></table></figure>
 这样在source目录下就会多三个文件夹。<br>在三个文件夹中都有一个index.md文件<br>打开其中一个，做出如下修改<img src="/2019/12/05/hexo-github-second/tags.png" alt="tags">，其他几个类似。<br>这样然后依次输入三个命令<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">hexo clean </span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">hexo g</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line">hexo s</span></pre></td></tr></table></figure>
-，打开浏览器就可以看到这样的效果图。<br><img src="/2019/12/05/hexo-github-second/run.png" alt="run">,这样主题就更换好了。<h3 id="2-新博客的创建"><a href="#2-新博客的创建" class="headerlink" title="2.新博客的创建"></a>2.新博客的创建</h3><h5 id="2-1-新博客的创建"><a href="#2-1-新博客的创建" class="headerlink" title="2.1 新博客的创建"></a>2.1 新博客的创建</h5>主题更改后就可以新建一个博客了，我们使用命令<br><code>hexo n &quot;first-blog&quot;</code><br>就可以创建一个新的文件，在<img src="/2019/12/05/hexo-github-second/first.png" alt="tags">)中新建一个first-blog.md文件，我们可以使用各种工具进行博客的编写，推荐大家使用MarkDown的语法进行编写<a href="https://njitzyd.github.io/2019/12/05/markdown-grammar" target="_blank" rel="noopener">这里有MarkDown语法的教程</a>，本文不介绍博客的具体书写方法，写完成后，就可以三连然后启动查看效果了。<h4 id="2-2-设置文章为预览模式"><a href="#2-2-设置文章为预览模式" class="headerlink" title="2.2 设置文章为预览模式"></a>2.2 设置文章为预览模式</h4>如果文章不设置为预览模式，那么整个文章都会展开，在后面文章变多后就显的很乱，所以设置预览模式。<br>在next的配置文件中，搜索auto_excerpt，如图修改<img src="/2019/12/05/hexo-github-second/auto.png" alt="预览">)这样在首页的文章都只会显示预览的文字。这样在写文章的正文之前使用如图的方式添加预览的概况。<img src="/2019/12/05/hexo-github-second/import.png" alt="预览">，我们也可以如图给添加标签和分类，<code>&lt;!--more--&gt;</code>标签之前的文字只会在预览的时候看到。</li>
+，打开浏览器就可以看到这样的效果图。<br><img src="/2019/12/05/hexo-github-second/run.png" alt="run">,这样主题就更换好了。<h3 id="2-新博客的创建"><a href="#2-新博客的创建" class="headerlink" title="2.新博客的创建"></a>2.新博客的创建</h3><h5 id="2-1-新博客的创建"><a href="#2-1-新博客的创建" class="headerlink" title="2.1 新博客的创建"></a>2.1 新博客的创建</h5>主题更改后就可以新建一个博客了，我们使用命令<br><code>hexo n &quot;first-blog&quot;</code><br>就可以创建一个新的文件，在<img src="/2019/12/05/hexo-github-second/first.png" alt="tags"> 中新建一个first-blog.md文件，我们可以使用各种工具进行博客的编写，推荐大家使用MarkDown的语法进行编写<a href="https://njitzyd.github.io/2019/12/05/markdown-grammar" target="_blank" rel="noopener">这里有MarkDown语法的教程</a>，本文不介绍博客的具体书写方法，写完成后，就可以三连然后启动查看效果了。<h4 id="2-2-设置文章为预览模式"><a href="#2-2-设置文章为预览模式" class="headerlink" title="2.2 设置文章为预览模式"></a>2.2 设置文章为预览模式</h4>如果文章不设置为预览模式，那么整个文章都会展开，在后面文章变多后就显的很乱，所以设置预览模式。<br>在next的配置文件中，搜索auto_excerpt，如图修改<img src="/2019/12/05/hexo-github-second/auto.png" alt="预览">)这样在首页的文章都只会显示预览的文字。这样在写文章的正文之前使用如图的方式添加预览的概况。<img src="/2019/12/05/hexo-github-second/import.png" alt="预览">，我们也可以如图给添加标签和分类，<code>&lt;!--more--&gt;</code>标签之前的文字只会在预览的时候看到。</li>
 </ul>
 <h3 id="3-发布到GitHub"><a href="#3-发布到GitHub" class="headerlink" title="3.发布到GitHub"></a>3.发布到GitHub</h3><p>首先，Git的安装就不介绍了，网上有很多教程，我也是在很久之前就安装好的，hexo发布到github很简单，只需要配置基本的参数就行，在全局配置文件中，搜索deploy，可以看到如下图<img src="/2019/12/05/hexo-github-second/git.png" alt="tags">,配置你的仓库地址和要发布的仓库就好。配置好后，</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">hexo clean</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">hexo g</span></pre></td></tr></table></figure>
@@ -570,7 +570,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
