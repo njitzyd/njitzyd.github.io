@@ -87,6 +87,7 @@
 <meta property="og:site_name" content="看一会呗">
 <meta property="og:description" content="上期我们已经进行了基本的环境的搭建，让Hexo运行起来，但博客的主题可能并不是自己所喜欢的，也是在本地运行的，本篇文章重点解决这两个问题。">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;.com&#x2F;&#x2F;next-theme.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;05&#x2F;hexo-github-second&#x2F;images&#x2F;hexo-github&#x2F;next-theme.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;05&#x2F;hexo-github-second&#x2F;images&#x2F;hexo-github&#x2F;blog-config1.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;05&#x2F;hexo-github-second&#x2F;images&#x2F;hexo-github&#x2F;blog-config2.png">
@@ -99,9 +100,9 @@
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;05&#x2F;hexo-github-second&#x2F;images&#x2F;hexo-github&#x2F;auto.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;05&#x2F;hexo-github-second&#x2F;images&#x2F;hexo-github&#x2F;import.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;05&#x2F;hexo-github-second&#x2F;images&#x2F;hexo-github&#x2F;git.png">
-<meta property="og:updated_time" content="2019-12-05T08:00:48.780Z">
+<meta property="og:updated_time" content="2019-12-05T08:06:58.244Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;05&#x2F;hexo-github-second&#x2F;images&#x2F;hexo-github&#x2F;next-theme.png">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;.com&#x2F;&#x2F;next-theme.png">
 
 
 
@@ -395,7 +396,7 @@
         <p>上期我们已经进行了基本的环境的搭建，让Hexo运行起来，但博客的主题可能并不是自己所喜欢的，也是在本地运行的，本篇文章重点解决这两个问题。</p>
 <a id="more"></a>
 <h2 id="Hexo搭建个人博客-lt-二-gt"><a href="#Hexo搭建个人博客-lt-二-gt" class="headerlink" title="Hexo搭建个人博客&lt;二&gt;"></a>Hexo搭建个人博客&lt;二&gt;</h2><h3 id="1-主题的更换"><a href="#1-主题的更换" class="headerlink" title="1.主题的更换"></a>1.主题的更换</h3><p>Hexo默认带了一个主题，默认的主题是themes文件夹中的landscape主题，一般需要更改主题，这里介绍目前比较火的nexT主题。</p>
-<h4 id="1-1-主题的下载"><a href="#1-1-主题的下载" class="headerlink" title="1.1 主题的下载"></a>1.1 主题的下载</h4><p>在存放博客的根目录，Git Bash here ,然后输入以下命令<br><code>git clone https://github.com/theme-next/hexo-theme-next themes/next</code><br>然后他就会自己去下载主题，等待下载好后，就可以在themes文件夹中看到多一个next的文件夹，说明已经下载好主题。<br><img src="images/hexo-github/next-theme.png" alt="主题下载成功"></p>
+<h4 id="1-1-主题的下载"><a href="#1-1-主题的下载" class="headerlink" title="1.1 主题的下载"></a>1.1 主题的下载</h4><p>在存放博客的根目录，Git Bash here ,然后输入以下命令<br><code>git clone https://github.com/theme-next/hexo-theme-next themes/next</code><br>然后他就会自己去下载主题，等待下载好后，就可以在themes文件夹中看到多一个next的文件夹，说明已经下载好主题。<br><img src="/.com//next-theme.png" alt="主题下载成功"><br><img src="images/hexo-github/next-theme.png" alt="主题下载成功"></p>
 <h4 id="1-2-主题的设置"><a href="#1-2-主题的设置" class="headerlink" title="1.2 主题的设置"></a>1.2 主题的设置</h4><ul>
 <li>这里要说明一下，Hexo中的配置都是通过叫 _config.yml文件进行的。Hexo 的配置文件在下图中，<img src="images/hexo-github/blog-config1.png" alt="全局配置图">，这是全局的配置，而每个主题都有自己的配置文件，都是在自己的文件夹下，如下图<br><img src="images/hexo-github/blog-config2.png" alt="主题的配置文件">。</li>
 <li>下载好后，首先让主题生效才行。所以要在全局配置文件中修改配置。打开根文件夹的_config.yml,搜索themes关键字，找到如图的位置<img src="images/hexo-github/next.png" alt="打开主题"><br>之前的配置是默认的landspace，我们把他改成next。这样主题就更改好了。</li>
